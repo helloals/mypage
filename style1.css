@@ -1,0 +1,77 @@
+/* 타이핑 효과 */
+.typing {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    margin-top: 30vh;
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%); /*left로 50퍼센트 밀고 트랜스폼으로 50프로 다시 당기기*/
+    }
+
+  .text {
+    font-size: 2.2rem;
+    color: black;
+  }
+  
+  .text::after {
+    content: '';
+    margin-left: 0.4rem;
+    border-right: 2px solid #777;
+    animation: cursor 0.9s infinite steps(2);
+  }
+  
+  @keyframes cursor {
+    from {
+        border-right: 2px solid #000;
+    }
+    to {
+        border-right: 2px solid #000;
+    }
+  }
+  
+  #scroll a {
+    margin-top: 10vh;
+  }
+  #scroll a span {
+    position: absolute;
+    top: 70vh;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    transform: rotate(-45deg);
+    animation: sdb 2s infinite;
+    opacity: 0;
+    box-sizing: border-box;
+  }
+  
+  #scroll a span:nth-of-type(1) {
+    animation-delay: 0s;
+  }
+  
+  #scroll a span:nth-of-type(2) {
+    top: 72vh;
+    animation-delay: .15s;
+  }
+  
+  #scroll a span:nth-of-type(3) {
+    top: 74vh;
+    animation-delay: .3s;
+  }
+  
+  @keyframes sdb {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+  }

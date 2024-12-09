@@ -1,54 +1,109 @@
 body { 
-    font-family: "Itim";
-    margin: 0;
-  }
-  
-  .navbar a{
-    text-decoration: none;
-    color: var(--text-color);
-    margin: 100px;
-  }
-  
-  .navbar-menu {
-    list-style: none;
-    padding-left: 0;
-    color: black;
-    text-align: center;
-  }
-  
-  .navbar-menu li {
-    margin: 10px;
-    display: inline-block;
-  }
-  .navbar-menu :hover{
-    border-radius: 3px;
-    font-size: 20px;
-  }
-  .line{
-    width: 80%;
-  }
-@media only screen and (max-width: 1050px) {
-  .navbar{
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .navbar-menu{
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  .navbar-menu li{
-    width: 100%;
-    text-align: center;
-  }
-
+  font-family: "Itim";
+  margin: 0;
 }
-.content-about{
+
+.navbar a{
+  text-decoration: none;
+  color: var(--text-color);
+  margin: 100px;
+}
+
+.navbar-menu {
+  list-style: none;
+  padding-left: 0;
+  color: black;
+  text-align: center;
+}
+
+.navbar-menu li {
+  margin: 10px;
+  display: inline-block;
+}
+.navbar-menu :hover{
+  border-radius: 3px;
+  font-size: 20px;
+}
+.line{
+  width: 80%;
+}
+@media only screen and (max-width: 1200px) {
+.navbar{
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+.navbar-menu{
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.navbar-menu li{
+  width: 100%;
+  text-align: center;
+}
+
+}
+.content-about{
+font-size: 50px;
+position: absolute;
+left: 50%;
+top: 130%;
+transform: translateX(-50%);
+}
+.content-about-box{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+border: 1px solid red;
+width: 700%;
+height: 400px;
+}
+.content-skill{
+font-size: 50px;
+position: absolute;
+top: 200%;
+left: 50%;
+transform: translateX(-50%);
+}
+.content-skill-box{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+border: 1px solid red;
+width: 700%;
+height: 500px;
+}
+.content-project{
+font-size: 50px;
+position: absolute;
+transform: translateX(-50%);
+top: 300%;
+left: 50%;
+}
+.content-project-box{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+border: 1px solid red;
+width: 500%;
+height: 400px;
+}
+.content-contact{
+font-size: 50px;
+position: absolute;
+transform: translateX(-50%);
+top: 400%;
+left: 50%
+}
+.content-contact-box{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+border: 1px solid red;
+width: 500%;
+height: 400px;
 }

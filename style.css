@@ -1,3 +1,6 @@
+a{
+  color: inherit;
+}
 body { 
   font-family: "Itim";
   margin: 0;
@@ -42,6 +45,15 @@ border: 1px solid red;
 width: 700%;
 height: 400px;
 }
+.content-about-box-top{
+display: flex;
+justify-content: space-around;
+margin: 100px;
+}
+.content-about-box-bottom{
+display: flex;
+justify-content: space-around;
+}
 .content-skill{
 font-size: 50px;
 position: absolute;
@@ -56,6 +68,21 @@ transform: translateX(-50%);
 border: 1px solid red;
 width: 700%;
 height: 500px;
+}
+.content-skill-box-top{
+  text-align: center;
+margin: 50px;
+}
+.content-skill-box-top i{
+  width: 100px;
+  height: auto;
+}
+.content-skill-box-bottom{
+text-align: center;
+margin: 50px;
+}
+.content-skill-box-bottom i{
+  width: 100px;
 }
 .content-project{
 font-size: 50px;
@@ -99,12 +126,15 @@ height: 400px;
   }
   .navbar-menu{
     flex-direction: column;
-    align-items: center;
     width: 100%;
   }
   .navbar-menu li{
     width: 100%;
     text-align: center;
   }
-  
+  .content-about-box-top,.content-about-box-bottom{
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+  }
   }

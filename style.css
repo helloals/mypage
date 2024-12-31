@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 a{
   color: inherit;
 }
@@ -98,6 +101,15 @@ transform: translateX(-50%);
 border: 1px solid red;
 width: 500%;
 height: 400px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.content-project-box-top{
+  display: flex;
+}
+.content-project-box-bottom{
+display: flex;
 }
 .content-contact{
 font-size: 50px;
@@ -111,8 +123,14 @@ position: absolute;
 left: 50%;
 transform: translateX(-50%);
 border: 1px solid red;
-width: 500%;
+width: 400%;
 height: 400px;
+text-align: center;
+align-items: center
+}
+footer{
+  position: absolute;
+  top: 500%;
 }
 /* 반응형 */
 @media only screen and (max-width: 1200px) {
@@ -137,8 +155,9 @@ height: 400px;
     text-align: center;
     margin: 50px;
   }
-  .content-skill-box-top{
-    
+.content-project-box{
+  
+}    
     
   }
-  }
+  

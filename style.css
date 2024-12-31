@@ -77,7 +77,6 @@ height: 500px;
 margin: 50px;
 }
 .content-skill-box-top i{
-  width: 100px;
   height: auto;
 }
 .content-skill-box-bottom{
@@ -105,12 +104,6 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 }
-.content-project-box-top{
-  display: flex;
-}
-.content-project-box-bottom{
-display: flex;
-}
 .content-contact{
 font-size: 50px;
 position: absolute;
@@ -123,14 +116,17 @@ position: absolute;
 left: 50%;
 transform: translateX(-50%);
 border: 1px solid red;
-width: 400%;
-height: 400px;
+width: 300%;
+height: auto;
 text-align: center;
-align-items: center
 }
 footer{
   position: absolute;
   top: 500%;
+}
+footer h1{
+  position: absolute;
+  left: 50%;
 }
 /* 반응형 */
 @media only screen and (max-width: 1200px) {
@@ -150,14 +146,102 @@ footer{
     width: 100%;
     text-align: center;
   }
+  .content-about-box{
+    width: 300%;
+  }
   .content-about-box-top,.content-about-box-bottom{
     flex-direction: column;
     text-align: center;
     margin: 50px;
   }
-.content-project-box{
-  
-}    
-    
+  .content-skill-box{
+    width: 300%;
+    height: 600px;
   }
+  .content-skill-box-top{
+    font-size: 30px;
+  }
+  .project-top-icon-1{
+    position: absolute;
+    top: 25%;
+  }
+  .project-top-icon-2{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .project-top-icon-3{
+    position: absolute;
+    top: 25%;
+    left: 65%;
+  }
+  .project-top-icon-4{
+    position: absolute;
+    top: 50%;
+  }
+  .project-top-icon-5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .project-top-icon-6{
+    position: absolute;
+    top: 50%;
+    left: 65%;
   
+  }
+  .content-skill-box-bottom{
+    font-size: 30px;
+  }
+  .sub-skill{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .project-bottom-icon-1{
+    position: absolute;
+    top: 80%;
+  }
+  .project-bottom-icon-2{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .project-bottom-icon-3{
+    position: absolute;
+    top: 80%;
+    left: 65%;
+  }
+  .content-project-box{
+    width: 300%;    
+    justify-content: space-around;
+  }
+  .content-project-box-1{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+
+  } 
+  .content-project-box-2{
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  }
+  .content-project-box-3{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+  }
+  .content-project-box-4{
+  position: absolute;
+  top: 60%;
+  right: 25%;
+  }
+  .content-contact-box{
+    width: 200%;
+  }
+  }

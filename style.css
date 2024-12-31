@@ -72,6 +72,7 @@ border: 1px solid red;
 width: 700%;
 height: 500px;
 }
+
 .content-skill-box-top{
   text-align: center;
 margin: 50px;
@@ -85,6 +86,61 @@ margin: 50px;
 }
 .content-skill-box-bottom i{
   width: 100px;
+}
+.sub-skill{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.project-top-icon-1{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.project-top-icon-2{
+  position: absolute;
+  top: 30%;
+  left: 25%;
+
+}
+.project-top-icon-3{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+
+}
+.project-top-icon-4{
+  position: absolute;
+  top: 30%;
+  left: 55%;
+
+}
+.project-top-icon-5{
+  position: absolute;
+  top: 30%;
+  left: 70%;
+}
+.project-top-icon-6{
+  position: absolute;
+  top: 30%;
+  left: 85%;
+}
+.project-bottom-icon-1{
+  position: absolute;
+  top: 70%;
+  left: 20%;
+}
+.project-bottom-icon-2{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.project-bottom-icon-3{
+  position: absolute;
+  top: 70%;
+  left: 70%;
 }
 .content-project{
 font-size: 50px;
@@ -104,6 +160,7 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 }
+
 .content-contact{
 font-size: 50px;
 position: absolute;
@@ -164,6 +221,7 @@ footer h1{
   .project-top-icon-1{
     position: absolute;
     top: 25%;
+    left: 20%;
   }
   .project-top-icon-2{
     position: absolute;
@@ -179,6 +237,7 @@ footer h1{
   .project-top-icon-4{
     position: absolute;
     top: 50%;
+    left: 20%;
   }
   .project-top-icon-5{
     position: absolute;
@@ -204,6 +263,7 @@ footer h1{
   .project-bottom-icon-1{
     position: absolute;
     top: 80%;
+    left: 15%;
   }
   .project-bottom-icon-2{
     position: absolute;
@@ -214,7 +274,7 @@ footer h1{
   .project-bottom-icon-3{
     position: absolute;
     top: 80%;
-    left: 65%;
+    left: 60%;
   }
   .content-project-box{
     width: 300%;    

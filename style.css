@@ -37,14 +37,13 @@ body {
 font-size: 50px;
 position: absolute;
 left: 50%;
-top: 130%;
+top: 110%;
 transform: translateX(-50%);
 }
 .content-about-box{
 position: absolute;
 left: 50%;
 transform: translateX(-50%);
-border: 1px solid red;
 width: 700%;
 height: 400px;
 }
@@ -68,7 +67,6 @@ transform: translateX(-50%);
 position: absolute;
 left: 50%;
 transform: translateX(-50%);
-border: 1px solid red;
 width: 700%;
 height: 500px;
 }
@@ -153,7 +151,6 @@ left: 50%;
 position: absolute;
 left: 50%;
 transform: translateX(-50%);
-border: 1px solid red;
 width: 500%;
 height: 400px;
 display: flex;
@@ -172,7 +169,6 @@ left: 50%
 position: absolute;
 left: 50%;
 transform: translateX(-50%);
-border: 1px solid red;
 width: 300%;
 height: auto;
 text-align: center;
@@ -181,9 +177,11 @@ footer{
   position: absolute;
   top: 500%;
 }
-footer h1{
+footer {
   position: absolute;
   left: 50%;
+  transform: translateX(-50%);
+  font-size: 50px;
 }
 /* 반응형 */
 @media only screen and (max-width: 1200px) {
@@ -275,6 +273,9 @@ footer h1{
     position: absolute;
     top: 80%;
     left: 60%;
+  }
+  .content-project{
+    margin-top: 80px;
   }
   .content-project-box{
     width: 300%;    
